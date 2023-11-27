@@ -1,0 +1,7 @@
+.bg-hero{
+    min-height: 80vh;
+    background-image: url(https://www.telegraph.co.uk/content/dam/news/2021/11/24/TELEMMGLPICT000278704620_trans_NvBQzQNjv4BqA7N2CxnJWnYI3tCbVBgu9T0aesusvN1TE7a0ddd_esI.jpeg?imwidth=1280);
+    object-fit: cover;
+    object-position: bottom;
+    width: 100%;
+}
