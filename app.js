@@ -26,11 +26,13 @@ let scores = {
 function alterScore(teamName, value){
     // debugger
 console.log(teamName, value)
-let teamScoreToBeAltered = value[teamName]
-console.log(teamScoreToBeAltered, 'team to alter')
-teamName += value
-console.log('home', 'homeScore')
-console.log('away', 'awayScore')
+let teamScoreToBeAltered =  scores[teamName]
+console.log(teamScoreToBeAltered, teamName)
+teamScoreToBeAltered += value
+scores[teamName] = teamScoreToBeAltered
+console.log('home', scores.home)
+console.log('away', scores.away)
+
 drawHome()
 }
 
